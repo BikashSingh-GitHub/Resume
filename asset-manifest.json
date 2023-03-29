@@ -1,11 +1,15 @@
 {
   "files": {
-    "main.js": "/Resume/static/js/main.1ff66b5d.js",
-    "static/media/logo.jpg": "/Resume/static/media/logo.a786f3ee285a96c7d3a0.jpg",
-    "index.html": "/Resume/index.html",
-    "main.1ff66b5d.js.map": "/Resume/static/js/main.1ff66b5d.js.map"
+    "main.css": "/BikashSingh-GitHub/Resume.git/static/css/main.d823debb.css",
+    "main.js": "/BikashSingh-GitHub/Resume.git/static/js/main.d38d83b8.js",
+    "static/js/787.1ed0c42c.chunk.js": "/BikashSingh-GitHub/Resume.git/static/js/787.1ed0c42c.chunk.js",
+    "index.html": "/BikashSingh-GitHub/Resume.git/index.html",
+    "main.d823debb.css.map": "/BikashSingh-GitHub/Resume.git/static/css/main.d823debb.css.map",
+    "main.d38d83b8.js.map": "/BikashSingh-GitHub/Resume.git/static/js/main.d38d83b8.js.map",
+    "787.1ed0c42c.chunk.js.map": "/BikashSingh-GitHub/Resume.git/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.1ff66b5d.js"
+    "static/css/main.d823debb.css",
+    "static/js/main.d38d83b8.js"
   ]
 }
