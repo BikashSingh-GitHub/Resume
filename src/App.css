@@ -1,242 +1,38 @@
+.App {
+  text-align: center;
+}
 
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
 
 .App-header {
-  display: inline-block;
-  background-color: #000307;
-  @media only screen and (max-width: 1240px) 
-   {
-      background-color: lightblue;
-    }
-  
-  min-height: 12vh;
-display: flex;
-font-weight: bold;
-font-size:16px ;
-  color: white;
-}
-.cards{
+  background-color: #282c34;
+  min-height: 100vh;
   display: flex;
-  width: 5em;
-  height:5em;
-  background-color: antiquewhite;
-  margin-bottom: 2em;
-  
-}
-
-
-.logo{
-  width: 12em;
-  height: 5em;
- 
-
-}
-.headertext1{
-
-position: absolute;
-left:20em;
-top:1.8em;
-
-
-
-}
-.headertext2{
-  position: absolute;
-  left:30em;
-  top:1.8em;
-  
- 
- }
- .headertext3{
-  position: absolute;
-  left:40em;
-  top:1.8em;
- 
- }
- .headertext4 {
-  position:absolute;
-  left:58em;
-  top:1.8em;
- 
- }
-
- @media only screen and (max-width: 600px) {
-  .headertext1 {background: red;}
-}
-.row-posters {
-  display: flex;
-  margin-bottom: 5em;
-  flex-wrap: wrap;
-  padding: 2px;
-  padding-left: 50px;
-  padding-right: 10px;
-  position: absolute;
-  bottom:3.5rem;
-}
-.icon{
-  position: absolute;
-  left:64em;
-  top:1.5em;
-  font-size: 20px;
-}
-
-
-@media screen and (min-width: 100px) {
-  .rowposter {width:45vw;
-                height:20vh;
-                background: red;}
-}
-
-
-@media only screen and (min-width: 768px) {
-  .rowposter {width:45vw;
-    height:20vh;
-    background: red}
-} 
-
-
-@media only screen and (min-width: 992px) {
-  .rowposter{background: orange;}
-} 
-
-@media only screen and (min-width: 1200px) {
-  .rowposter{background:  rgb(52, 51, 53);}
-}
-.rowposter{
-  transition: transform .2s;
-  width:15vw;
-  height:15vh;
-    display: inline-block;
-    margin-bottom: 5em;
-    transition: all .1s ease-in-out;
-    flex-wrap: wrap;
-    padding: 2x;
-    margin-left:0.2em;
-    padding-left: 0px;
-    padding-right: 2px;
-    margin-right: 2px;
-    margin-block-end: 10px;
-    position: relative;
-    top:400px;    
-    border-radius: 5px;
-
-}
-
-@media only screen and (max-width: 600px) {
-  .moviescard {background: red;}
-}
-
-@media only screen and (min-width: 600px) {
-  .moviescard {background: green;}
-}
-
-
-@media only screen and (min-width: 768px) {
-  .moviescard {background: blue;}
-} 
-
-
-@media only screen and (min-width: 992px) {
-  .moviescard {background: orange;}
-} 
-
-@media only screen and (min-width: 1200px) {
-  .moviescard {background:  rgb(52, 51, 53);}
-}
-.moviescard{
-  transition: transform .2s;
-  width:8.41em;
-  height:12em;
-    display: inline-block;
-    transition: all .1s ease-in-out;
-    margin-bottom: 5em;
-    flex-wrap: wrap;
-    padding: 2x;
-    margin-left:0.4em;
-    padding-left: 2px;
-    padding-right: 2px;
-    margin-right: 0px;
-    margin-block-end: 20px;
-    position: relative;
-    top:400px;
-    left:0.8em;
-    border-radius: 5px;
-    
-    
-}
-.headerbox{
-  color: azure;
-  font-weight: bold;
-  position: absolute;
-  font-size: 20px;
-  top:22em;
- left:1.8em;
-}
-.headerbox1{
-  color: azure;
-  font-weight: bold;
-  position: relative;
-  font-size: 20px;
-  top:19.6em;
- margin-left: 2em;
- padding-top:35px ;
-}
-.moviescard:hover{
-  transform: scale(1.1);
-  opacity: 0.4;
-}
-.rowposter:hover{
-  opacity: 0.5;
-  transform: scale(1.1);
-}
-.arrow{
-  color: white;
-  font-size: 35px;
-  position: relative;
-  top:16.3em;
-  left:0em;
-}
-.arrow1{
-  color: white;
-  font-size: 35px;
-  position: absolute;
-    top:18.4em;
-  left:37.5em;
-}
-.arrow1:hover{
-  opacity: 0.1;
- 
-
-}
-.timeline{
-  position: absolute;
+  flex-direction: column;
   align-items: center;
-  border: white;
-  width:80%;
-  height:18em;
   justify-content: center;
-  display:flex ;
-background-color: aliceblue;
-
-
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
-
-}
-.arrow:hover{
-  opacity: 0.1;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
-.wrap{
-  margin-left: 2em;
+.App-link {
+  color: #61dafb;
 }
-.wrap1{
-  margin-left: 1em;
-}
-.setimage{
-  max-width: 100%;
-   height: 15em;
-    position: absolute;
-    border-radius: 5px;
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

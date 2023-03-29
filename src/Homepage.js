@@ -2,7 +2,7 @@ import React from 'react';
 
 const HomePage = () => {
 return (
-<div class="container mx-auto px-6 py-12 bg-gradient-to-r from-blue-200 to-blue-500">
+<div class="bg-gradient-to-r from-blue-600 via-green-400 to-yellow-300 min-h-screen">  <div class="container mx-auto px-6 py-12 bg-gradient-to-r from-blue-200 to-blue-500">
 <div class="flex items-center flex-wrap mb-12">
 <div class="w-full md:w-1/2">
 <h1 class="text-4xl font-bold mb-2 text-gray-800">BIKASH KUMAR SINGH</h1>
@@ -64,7 +64,6 @@ Based in Silicon-Valley, California, United States
           Suggaa is a online cab aggregator service with focus to provide safe and
 comfortable rides for customers and provide best in class earnings and
 savings opportunity to driver partners.
-
           </p>  <p className="text-blue-900 font-bold">
           (Company Website: https://suggaa.in/).
 
@@ -179,6 +178,7 @@ Enrollment ID:- 90370206</li>
         </p>
 </div>  </div>
       </div>
+    </div>
     </div>
   );
 };

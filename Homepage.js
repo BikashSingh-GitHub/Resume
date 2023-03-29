@@ -1,54 +1,50 @@
 import React from 'react';
 
 const HomePage = () => {
-  return (
-    <div className="container mx-auto px-6 py-12 bg-gray-200">
-    <div className="flex flex-wrap items-center mb-12">
-      <div className="w-full md:w-1/2">
-          <h1 className="text-4xl font-bold mb-2">BIKASH KUMAR SINGH</h1>
-          <p className="text-lg mb-2">Software Developer and Engineer</p>
-          <p className="text-gray-700 mb-2">Permanent Address: SHILLONG, INDIA</p>
-          <p className="text-gray-700">
-            Contact No.: +91-9606791418 / +91-7999653696
-          </p>
-          <p className="text-gray-700 mb-2">
-            Email-ID: blackhatsys@gmail.com / lookupbikash64@outlook.com
-          </p>
-        </div>
-        <div className="w-full md:w-1/2 text-center md:text-right">
-          <a href="https://github.com/BikashSingh-GitHub" target="_blank">
-            <i className="fab fa-github fa-2x mr-4 text-gray-700"></i>
-          </a>
-          <a href="https://www.linkedin.com/in/bikash-singh-410204aa" target="_blank">
-            <i className="fab fa-linkedin fa-2x text-gray-700"></i>
-          </a>
-        </div>
-      </div>
-      <div className="mb-12">
-        <h2 className="text-lg font-bold mb-2">Career Objective:-</h2>
-        <p className="text-gray-700">
-          Pursuing a role as a front-end developer with a passion for creating immersive user experiences.
-        </p>
-      </div>
-      <div className="mb-12">
-        <h2 className="text-lg font-bold mb-2">Projects:-</h2>
-        <div className="mb-4">
-          <p className="text-gray-700 font-bold">
-           1. React Frontend Developer at Tokn Music
-          </p>
-          <p className="text-gray-700">
-Founded in 2021, Tokn Music seeks to unlock the potential of the music
-industry by bridging connections and providing mutually beneficial value to all
-participating parties. Tokn Music enables musicians to build additional sources
-of revenue by selling streaming royalties to fans and investors through our order
-matching engined marketplace.
-
-          </p>  <p className="text-blue-900 font-bold">
-            (Company Website: https://www.toknmusic.com/).
-          </p>
-          <p className="text-gray-700 font-bold">
-            Based in Silicon-Valley, California, United States
-          </p>
+return (
+<div class="container mx-auto px-6 py-12 bg-gradient-to-r from-blue-200 to-blue-500">
+<div class="flex items-center flex-wrap mb-12">
+<div class="w-full md:w-1/2">
+<h1 class="text-4xl font-bold mb-2 text-gray-800">BIKASH KUMAR SINGH</h1>
+<p class="text-lg mb-2 text-gray-800"><b>Software Developer and Engineer</b></p>
+<p class="text-gray-700 mb-2">Permanent Address: SHILLONG, INDIA</p>
+<p class="text-gray-700">
+Contact No.: <a href="tel:+919606791418" class="text-blue-700">+91-9606791418</a> / <a href="tel:+917999653696" class="text-blue-700">+91-7999653696</a>
+</p>
+<p class="text-gray-700 mb-2">
+Email-ID: <a href="mailto:blackhatsys@gmail.com" class="text-blue-700">blackhatsys@gmail.com</a> / <a href="mailto:lookupbikash64@outlook.com" class="text-blue-700">lookupbikash64@outlook.com</a>
+</p>
+</div>
+<div class="w-full md:w-1/2 text-center md:text-right">
+<a href="https://github.com/BikashSingh-GitHub" target="_blank" rel="noopener noreferrer">
+<i class="fab fa-github fa-2x mr-4 text-gray-700 hover:text-gray-800"></i>
+</a>
+<a href="https://www.linkedin.com/in/bikash-singh-410204aa" target="_blank" rel="noopener noreferrer">
+<i class="fab fa-linkedin fa-2x text-gray-700 hover:text-gray-800"></i>
+</a>
+</div>
+</div>
+<div class="mb-12">
+<h2 class="text-lg font-bold mb-2 text-gray-800">Career Objective:</h2>
+<p class="text-gray-700">
+"I have had a lifelong passion for science and technology, and believe in its potential to make the world a better place, having completed a Bachelor's and Master's in Computer Applications, I am fully committed to pursuing success in this field."
+</p>
+</div>
+<div className="mb-12">
+<h2 className="text-lg font-bold mb-2">Projects:-</h2>
+<div className="mb-4">
+<p className="text-gray-700 font-bold">
+1. React Frontend Developer at Tokn Music
+</p>
+<p className="text-gray-700">
+Founded in 2021, Tokn Music seeks to unlock the potential of the music industry by bridging connections and providing mutually beneficial value to all participating parties. Tokn Music enables musicians to build additional sources of revenue by selling streaming royalties to fans and investors through our order matching engined marketplace.
+</p>
+<p className="text-blue-900 font-bold">
+(Company Website: https://www.toknmusic.com/).
+</p>
+<p className="text-gray-700 font-bold">
+Based in Silicon-Valley, California, United States
+</p>
           <p className="text-gray-700 font-bold">Duration: September 2021 - January 2023</p>
         </div>
         <div className="mb-4">
@@ -68,7 +64,6 @@ matching engined marketplace.
           Suggaa is a online cab aggregator service with focus to provide safe and
 comfortable rides for customers and provide best in class earnings and
 savings opportunity to driver partners.
-
           </p>  <p className="text-blue-900 font-bold">
           (Company Website: https://suggaa.in/).
 
